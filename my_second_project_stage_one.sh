@@ -14,7 +14,7 @@ sudo chmod +x Miniconda3-latest-Linux-x86_64.sh
 conda create --name HackBio_Workspace
 conda activate HackBio_Workspace
 
-# dowloading fastqc, cutadapt and seqtk
+# dowloading fastqc, fastp and seqtk
 conda install -c bioconda fastqc  
 conda install -c bioconda seqtk
 conda install -c bioconda fastp
